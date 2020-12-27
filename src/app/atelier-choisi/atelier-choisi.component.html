@@ -1,0 +1,80 @@
+<header>
+
+    <p>
+        <a class="crBoutonRouge" routerLink="/ateliers">
+        Retour aux ateliers
+        </a>
+    </p> 
+
+</header>
+
+<section>
+
+    <app-atelier
+        [ngClass]="{ 'crTile': true , 'crSelected': true }" 
+        [atelier]="currentAtelier" >
+    </app-atelier>
+
+    <app-atelier-details>
+    </app-atelier-details>
+
+</section>
+
+<footer>
+
+    <h2>
+        Modalit&eacute;s d'inscription
+    </h2>
+    <strong>Pour s&rsquo;inscrire &agrave; cet atelier :</strong>
+
+    <ul>
+        <li>
+            <p>
+                Me contacter par mail ou par t&eacute;l&eacute;phone afin de r&eacute;server un test d&rsquo;&eacute;valuation gratuit
+            </p>
+        </li>
+        <li>
+            <p>
+                Consulter les <strong>conditions g&eacute;n&eacute;rales de vente</strong>
+            </p>
+        </li>
+        <li>
+            <p>
+                T&eacute;l&eacute;charger, remplir et signer le <strong>contrat d'&eacute;ducation canine</strong>
+            </p>
+        </li>
+        <li>
+            <p>
+                Envoyer par courrier postal le contrat accompagn&eacute; d&rsquo;un <strong>ch&egrave;que d&rsquo;acompte</strong> de {{contactInfo.acompte}} &agrave; l&rsquo;ordre de Nathalie Rossi
+            </p>
+        </li>
+    </ul>
+    
+
+    <h2>
+        Mes coordonn&eacute;es
+    </h2>
+
+    <div class="crCoordonnees">
+        <ul class="crNobullets">
+            <li class="crBigger">{{contactInfo.fullname}}</li>
+            <li>{{contactInfo.adresseRue}}</li>
+            <li>{{contactInfo.adresseVille}}</li>
+            <li><br /></li>
+            <li>Tél. : {{contactInfo.telephone}}</li>
+            <li><a href="mailto:{{contactInfo.eMail}}">{{contactInfo.eMail}}</a></li>
+        </ul>
+    </div>
+
+    <img alt="Photo d'accueil" width="100%" src="assets/pictures/nath-massai-darius.jpg">
+
+    <div class="crBoutons">
+        <a class="crBouton crRetour" routerLink="/" >
+            Retour &agrave; l'accueil
+        </a>
+        <a class="crBoutonRouge crRetour" routerLink="/ateliers" >
+            Retour aux ateliers
+        </a>
+    </div>
+    
+</footer>

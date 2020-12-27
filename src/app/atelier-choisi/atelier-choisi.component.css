@@ -1,0 +1,13 @@
+header {
+    margin-bottom: 2em;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.crBoutons {
+    display: flex;
+    flex-flow: row wrap;
+}

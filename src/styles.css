@@ -1,0 +1,88 @@
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+.crBouton {
+  align-items: center;
+  margin-top: 1em;
+  margin-left: 1em;    
+
+  padding: 0.4em 0.8em;
+  font-size: 1em;
+  border-radius: 4px;
+  background-color: #29394b;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.crBouton:hover {
+  background-color: #951212;
+  /* transform: translateY(-3px); */
+  box-shadow: 0 0.5em 0.5em rgba(41, 57, 75, 0.8);
+}
+
+.crBoutonRouge {
+  align-items: center;
+  margin-top: 1em;
+  margin-left: 1em;    
+
+  padding: 0.4em 0.8em;
+  font-size: 1em;
+  border-radius: 4px;
+  background-color: #951212;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.crBoutonRouge:hover {
+  background-color: #29394b;
+  /* transform: translateY(-3px); */
+  box-shadow: 0 0.5em 0.5em rgba(41, 57, 75, 0.8);
+}
+
+.crRetour {
+  margin-top: 1em;    
+  margin-left: 1em;    
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+h2 {
+  margin-top: 0.5em;    
+  font-size: 1.4em;
+}
+
+ul {
+  margin-left: 1.2em;
+  padding-left: 0em;
+}
+
+
+.crCoordonnees {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  _padding: 0px;
+  color: white;
+  background-color: #29394b;
+  margin: 0 12px 12px 0;
+  _border-radius: 10px;
+}
+
+ul.crNobullets {
+  list-style-type: none; /* Remove bullets */
+}
+
+.crCoordonnees a {
+  _font-size: 0.8em;
+  color:rgb(173, 224, 31);
+}
+
+.crBigger {
+  color:rgb(173, 224, 31);
+  font-size: 1.4em;
+}

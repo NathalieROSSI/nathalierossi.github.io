@@ -1,0 +1,42 @@
+<header>
+
+    <h1>M&eacute;thode &eacute;thologique</h1>
+</header>
+
+<section>
+    
+    <p style="text-align: justify;">Le programme que je propose est complet et donne des r&eacute;sultats rapides et durables. Il permet de vous aider &agrave; comprendre et g&eacute;rer votre chien au quotidien afin que vous puissiez vivre en harmonie avec lui.</p>
+
+    <div *ngIf="makeItShort"> 
+        <p>
+            <a class="crBouton" routerLink="/methode" >
+                En savoir plus ...
+            </a>
+        </p>
+        <br />
+    </div>
+
+    <div *ngIf="!makeItShort"> 
+        <p style="text-align: justify;">La m&eacute;thode que j'utilise est bas&eacute;e sur l&rsquo;observation de chiens en meute. Pour que votre chien vous ob&eacute;isse il vous suffit de devenir son &ldquo;leader&rdquo; car dans une meute c&rsquo;est le chien &ldquo;leader&rdquo; qui g&egrave;re les d&eacute;placements, les contacts et les territoires.</p>
+        <p style="text-align: justify;">Vous pouvez atteindre cet objectif en suivant l'un des ateliers que je propose. Les exercices pratiqu&eacute;s au cours de l&rsquo;atelier peuvent &ecirc;tre adapt&eacute;s en fonction de vos besoins et de votre chien.</p>
+    </div>
+
+</section>
+
+<footer>
+
+    <div *ngIf="!makeItShort"> 
+
+        <img alt="Photo d'accueil" width="100%" src="assets/pictures/nath-4chiens.jpg">
+
+        <p>
+            <a class="crBouton crRetour" routerLink="/" >
+                Retour &agrave; l'accueil
+            </a>
+        </p>
+    </div>
+
+</footer>
+
+
+

@@ -1,0 +1,49 @@
+<header>
+
+    <h1>Mon parcours personnel</h1>
+
+</header>
+
+<section>
+
+    <div *ngIf="makeItShort"> 
+        <p style="text-align: justify;">Je me suis orient&eacute;e vers le m&eacute;tier &eacute;ducateur canin comportementaliste pour venir en aide aux chiens en difficult&eacute;. Pour atteindre cet objectif professionnel, j'ai choisi d'acqu&eacute;rir des comp&eacute;tences en me sp&eacute;cialisant dans la m&eacute;thode &eacute;thologique <strong>&ldquo;&eacute;coute-ton-chien&ldquo;</strong>.</p>
+
+        <p>
+            <a class="crBouton" routerLink="/parcours" >
+                En savoir plus ...
+            </a>
+        </p>
+        <br />
+    </div>
+
+    <div *ngIf="!makeItShort"> 
+
+        <p style="text-align: justify;">J'ai eu la chance d'&ecirc;tre accompagn&eacute;e d'animaux (chiens, chats et chevaux) depuis mon plus jeune &acirc;ge. Tr&egrave;s sensible &agrave; la cause animale, c'est en donnant de mon temps au sein d&rsquo;un refuge que j&rsquo;ai pris conscience du nombre de chiens abandonn&eacute;s. Leur parcours m&rsquo;a particuli&egrave;rement choqu&eacute; car, tr&egrave;s souvent, ce sont des chiens qui ont &eacute;t&eacute; adopt&eacute;s pour finalement &ecirc;tre ramen&eacute;s au refuge pour des probl&egrave;mes de comportement inadapt&eacute;.</p>
+        <p style="text-align: justify;">J&rsquo;ai moi-m&ecirc;me &eacute;t&eacute; confront&eacute;e &agrave; ce genre de probl&egrave;mes lorsque j'ai d&eacute;cid&eacute; d&rsquo;adopter mon gros Darius en 2016. J&rsquo;avais adopt&eacute; plusieurs chiens auparavant, mais avec Darius, il a fallu revoir toute son &eacute;ducation car il pr&eacute;sentait des probl&egrave;mes comportementaux. En mettant en place des r&egrave;gles claires, j&rsquo;ai pu devenir son &ldquo;leader&rdquo; et il a fini par s'apaiser. Il est aujourd&rsquo;hui devenu un bon chien de famille et un tr&egrave;s bon &ldquo;assistant&rdquo; qui participe volontiers aux s&eacute;ances de travail.</p>
+        <img alt="Cheval" width="100%" src="assets/pictures/enfant-cheval.jpg">
+        
+        <p style="text-align: justify;">Mon parcours personnel est assez vari&eacute;. En effet, j'ai tout d'abord &eacute;t&eacute; vendeuse, puis monitrice d'&eacute;quitation, pour finalement m'orienter vers le m&eacute;tier d'&eacute;ducateur canin comportementaliste. Venir en aide aux chiens en difficult&eacute;, tout en m'&eacute;panouissant professionnellement est quelque chose de tr&egrave;s motivant.</p>
+        <p style="text-align: justify;">Pour atteindre cet objectif professionnel, j'ai choisi d'acqu&eacute;rir des comp&eacute;tences en me sp&eacute;cialisant dans la m&eacute;thode &eacute;thologique <strong>&ldquo;&eacute;coute-ton-chien&ldquo;</strong> qui fait uniquement appel &agrave; l'intelligence de l&rsquo;animal.</p>
+
+        <h2>Article de presse</h2>
+        <p>
+            <a  aria-label="Lien vers l'&acirc;ge de faire" target="_blank" rel="noopener noreferrer"
+                href="https://lagedefaire-lejournal.fr/educateur-canin-comportementaliste/">L'&acirc;ge de faire</a>
+            - un reportage d'Ana&iuml;s Draux
+        </p>
+
+        <iframe class="crVideoContainer" title="Reportage - l'&acirc;ge de faire" src="https://player.vimeo.com/video/442288258" width="100%" allowfullscreen></iframe>
+    </div>
+
+</section>
+
+<footer>
+    <div *ngIf="!makeItShort"> 
+        <p>
+            <a class="crBouton crRetour" routerLink="/" >
+                Retour &agrave; l'accueil
+            </a>
+        </p>
+    </div>
+</footer>

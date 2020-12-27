@@ -1,0 +1,27 @@
+/* ul {
+    margin-left: 1.2em;
+    padding-left: 0em;
+} */
+
+.crLogoToolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    margin: 0em;
+    padding: 0.3em;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.crLogoItem {
+    margin: 0.3em;
+    padding: 0em;
+}
+
+.crLogoItem:hover {
+    background-color: white;
+    border-radius: 8px;
+    transform: translateY(-3px); 
+    box-shadow: 0 0.4em 0.8em 0 rgba(41, 57, 75, 0.8);
+}

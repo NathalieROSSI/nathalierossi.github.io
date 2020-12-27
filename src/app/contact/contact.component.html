@@ -1,0 +1,68 @@
+<header>
+    <h1>Me contacter</h1>
+</header>
+
+<section>
+
+    <div class="crCoordonnees">
+        <ul class="crNobullets">
+            <li class="crBigger">{{contactInfo.fullname}}</li>
+            <li>{{contactInfo.adresseRue}}</li>
+            <li>{{contactInfo.adresseVille}}</li>
+            <li><br /></li>
+            <li>Tél. : {{contactInfo.telephone}}</li>
+            <li><a href="mailto:{{contactInfo.eMail}}">{{contactInfo.eMail}}</a></li>
+            <li><br /></li>
+            <li>Siret: {{contactInfo.siret}}</li>
+        </ul>
+    </div>
+    
+    <h3>Suivez-nous sur les r&eacute;seaux sociaux</h3>
+
+    <div class="crLogoToolbar" >
+
+        <a class="crLogoItem" aria-label="Lien vers Facebook" target="_blank" rel="noopener noreferrer" href="{{contactInfo.facebookUrl}}" title="Facebook">
+            <img alt="Facebook" src="assets/logo/facebook.png" />
+        </a>
+        
+        <a class="crLogoItem" aria-label="Lien vers Instagram" target="_blank" rel="noopener noreferrer" href="{{contactInfo.instagramUrl}}" title="Instagram">
+            <img alt="Instagram" src="assets/logo/instagram.png" />
+        </a>
+
+        <a class="crLogoItem" aria-label="Lien vers Youtube" target="_blank" rel="noopener noreferrer" href="{{contactInfo.youtubeUrl}}" title="Youtube">
+            <img alt="Youtube" src="assets/logo/youtube.png" />
+        </a>
+
+    </div>
+    
+     <div *ngIf="!makeItShort">  
+
+         <app-map></app-map>
+
+         <br />
+         <img alt="Photo d'accueil" width="100%" src="assets/pictures/darius.jpg">
+         
+    </div>
+
+</section>
+
+ <footer>
+
+    <div *ngIf="makeItShort"> 
+        <p>
+            <a class="crBouton" routerLink="/contact" >
+                En savoir plus ...
+            </a>
+        </p>
+    </div>
+
+    <br />
+    <div *ngIf="!makeItShort">  
+        <p>
+        <a class="crBouton crRetour" routerLink="/" >
+            Retour &agrave; l'accueil
+        </a>
+    </p>
+    </div>
+
+</footer>

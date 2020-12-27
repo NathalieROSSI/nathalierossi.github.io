@@ -1,0 +1,29 @@
+:host {
+  font-size: 14px;
+}
+
+.crSpacer {
+  flex: 1;
+}
+
+.crBandeau {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /* background-color: #1976d2; */
+  background-color: #951212;
+  color: white;
+  font-weight: 600;
+}
+
+.crBandeau img {
+  margin: 0 16px;
+}
+
+.crLogo {
+  cursor: pointer;
+}

@@ -1,0 +1,82 @@
+<header>
+
+    <div *ngIf="makeItShort"> 
+        <h1>Les exercices</h1>
+    </div>    
+
+    <div *ngIf="!makeItShort"> 
+        <h1>Les bases de l'&eacute;ducation du chien</h1>
+    </div>    
+
+</header>
+
+<section>
+
+    <div *ngIf="makeItShort"> 
+
+        <p style="text-align: justify;">Les exercices sont construits autour de principes de base qui sont valables pour tous les chiens. Il reste n&eacute;anmoins possible d'adapter les s&eacute;ances en fonction des difficult&eacute;s que rencontre votre ami &agrave; quatre pattes.</p>
+
+        <p>
+            <a class="crBouton" routerLink="/exercices" >
+                En savoir plus ...
+            </a>
+        </p>
+        <br />
+    </div>
+
+    <div *ngIf="!makeItShort"> 
+        <!-- <h2>Les bases de l'&eacute;ducation du chien</h2> -->
+
+        <p style="text-align: justify;">Les exercices sont construits autour de principes de base qui sont valables pour tous les chiens. Il reste n&eacute;anmoins possible d'adapter les s&eacute;ances en fonction des difficult&eacute;s que rencontre votre ami &agrave; quatre pattes.</p>
+
+        <p>A titre d'exemples :</p>
+        <ul>
+        <li>Chien r&eacute;actif ou agressif en pr&eacute;sence de ses cong&eacute;n&egrave;res ou de personnes inconnues</li>
+        <li>Chien qui poursuit les v&eacute;los et les voitures</li>
+        <li>Chien peureux</li>
+        </ul>
+
+        <h2>Les exercices</h2>
+
+        <h3>Gestion des d&eacute;placements</h3>
+        <ul>
+        <li>La marche en laisse sans tirer</li>
+        <li>Ne pas passer les portes en premier</li>
+        <li>Mise en attente</li>
+        </ul>
+        
+        <h3>Gestion des territoires</h3>
+        <ul>
+        <li>Rester sur demande sur son tapis</li>
+        <li>Interdit temporaire : le chien doit pouvoir sur demande rester dans une pi&egrave;ce (ou une terrasse) sans qu&rsquo;il ne soit n&eacute;cessaire de l&rsquo;enfermer</li>
+        <li>Interdit d&eacute;finitif : il doit comprendre que certaines pi&egrave;ces lui sont interdites</li>
+        <li>Le portail sera franchi uniquement sur demande</li>
+        </ul>
+        
+        <h3>Gestion du contact</h3>
+        <ul>
+        <li>Ne pas accueillir les invit&eacute;s</li>
+        <li>Ne pas sauter sur les gens</li>
+        <li>Croiser ses cong&eacute;n&egrave;res dans le calme</li>
+        </ul>
+        
+        <h3>Divers exercices de s&eacute;curit&eacute;</h3>
+        <ul>
+        <li>Monter/descendre d&rsquo;un v&eacute;hicule</li>
+        <li>Refus d'app&acirc;t</li>
+        <li>Traverser la route</li>
+        <li>...</li>
+        </ul>
+    </div>   
+
+</section>
+
+<footer>
+    <div *ngIf="!makeItShort"> 
+        <p>
+            <a class="crBouton crRetour" routerLink="/accueil" >
+                Retour &agrave; l'accueil
+            </a>
+        </p>
+    </div>
+</footer>

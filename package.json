@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "deploy": "ng deploy --base-href=/education-canine/",
+    "deploy": "ng deploy",
     "deploy-cname": "ng deploy --cname=nathalie-rossi-education-canine.fr --base-href=/education-canine/",
     "deploy-education-canine": "ng deploy --base-href=/education-canine/",
     "deploy-website": "ng deploy --base-href=/website/",

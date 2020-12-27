@@ -16,7 +16,7 @@ export class AteliersService {
     },
     {
       id: "AII",
-      title: 'Atelier intensif individuel',
+      title: 'Atelier individuel intensif',
       subTitle: 'Chiens à partir de 6 mois',
       format: '2 séances de 3 heures',
       price: '400 €',

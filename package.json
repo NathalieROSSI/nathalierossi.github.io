@@ -6,10 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "deploy": "ng deploy --cname=nathalie-rossi-education-canine.fr",
-    "deploy-cname": "ng deploy --cname=nathalie-rossi-education-canine.fr --base-href=/education-canine/",
-    "deploy-education-canine": "ng deploy --base-href=/education-canine/",
-    "deploy-website": "ng deploy --base-href=/website/",
+    "deploy-prod": "ng deploy --cname=nathalie-rossi-education-canine.fr",
+    "deploy-cr": "ng deploy --base-href=/website-education-canine/",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },

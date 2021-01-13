@@ -4,23 +4,27 @@
         <a class="crBoutonRouge" routerLink="/ateliers">
         Retour aux ateliers
         </a>
-    </p> 
+    </p>
 
 </header>
 
 <section>
 
     <app-atelier
-        [ngClass]="{ 'crTile': true , 'crSelected': true }" 
+        [ngClass]="{ 'crTile': true , 'crSelected': true }"
         [atelier]="currentAtelier" >
     </app-atelier>
 
     <app-atelier-details>
     </app-atelier-details>
 
-</section>
 
-<footer>
+
+  </section>
+
+  <footer>
+
+    <app-planning *ngIf="currentAtelier.id==='AIC'"></app-planning>
 
     <h2>
         Modalit&eacute;s d'inscription
@@ -49,7 +53,6 @@
             </p>
         </li>
     </ul>
-    
 
     <h2>
         Mes coordonn&eacute;es
@@ -76,5 +79,5 @@
             Retour aux ateliers
         </a>
     </div>
-    
+
 </footer>

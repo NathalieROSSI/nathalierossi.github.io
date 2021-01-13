@@ -49,4 +49,36 @@ export class AteliersService {
   getAtelier(atelierId) {
     return this.ateliers.find( atelier => atelier.id === atelierId );
   }
+
+  sessions = [
+    {
+      type: "AIC",
+      title: "Atelier intensif collectif",
+      jours: 'Le samedi et dimanche',
+      quand: '24 et 25 avril 2021',
+      horaireMatin: '8h - 12h',
+      horaireAprem: '14h - 17h',
+      contrainte: 'Uniquement sur réservation',
+      limite: 'Séance limitée à 5 chiens',
+      ou: 'Aux écuries de Mane - 04300',
+
+      introduction: "Merci à Sonia Barthelemy de m'accueillir de nouveau aux écuries de Mane (04300) pour l'organisation d'un atelier collectif.",
+      commentaires: [
+        {
+          texte: "Le nombre de chiens est limité à 5 afin de nous permettre de respecter les gestes barrières"
+        },
+        {
+          texte: "Comme toujours, le test d'évaluation de votre chien sera fait le samedi matin et si à 10h30 vous n'êtes pas convaincu(e), vous serez libre de partir et vous serez remboursé(e)."
+        },
+        {
+          texte: "Merci de venir avec votre joie et bonne humeur, sans oublier vos ramasses crottes car le centre doit être impeccable à notre départ."
+        }
+      ]
+    }
+  ];
+
+  getSessions() {
+    return this.sessions;
+  }
+
 }

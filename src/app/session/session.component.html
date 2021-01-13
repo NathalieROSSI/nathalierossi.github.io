@@ -1,0 +1,28 @@
+<div class="crSession">
+  <h2 class="crTileTitle" >{{ session.quand }}</h2>
+  <ul>
+    <li class="bullet">{{ session.title }}</li>
+    <li class="bullet">{{ session.ou }}</li>
+    <li class="bullet">horaires :</li>
+  </ul>
+  <div class="crBar">
+    <p class="crTarif">{{ session.horaireMatin }}</p>
+    <p class="crTarif">{{ session.horaireAprem }}</p>
+  </div>
+  <div class="crSpacer"></div>
+  <ul>
+    <li class="bullet">{{ session.limite }}</li>
+    <li class="bullet">{{ session.contrainte }}</li>
+  </ul>
+</div>
+
+<div class="crCommentaires">
+  <p style="text-align:justify;">{{session.introduction}}</p>
+  <ul>
+    <li *ngFor="let commentaire of session.commentaires">
+      {{commentaire.texte}}
+    </li>
+
+  </ul>
+</div>
+

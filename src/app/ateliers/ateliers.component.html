@@ -2,33 +2,33 @@
 <header  >
     <h1>Les ateliers propos&eacute;s</h1>
 
-    <div *ngIf="makeItShort"> 
+    <div *ngIf="makeItShort">
         <p style="text-align: justify;">Afin de satisfaire le plus grand nombre, je vous propose des ateliers sous diff&eacute;rents formats, avec au choix, des cours individuels ou collectifs.</p>
         <p style="text-align: justify;">L'objectif des ateliers est d'&eacute;duquer ou de r&eacute;&eacute;duquer votre chien. Notre m&eacute;thode fonctionne aussi bien avec les chiots qu'avec les vieux chiens et ce, quelle que soit la race.</p>
         <p style="text-align: justify;">Notez que les chiots ont des difficult&eacute;s &agrave; suivre les s&eacute;ances jusqu'au bout. En effet, ils finissent par s'endormir! C'est la raison pour laquelle je d&eacute;conseille les ateliers intensifs pour les chiots de moins de 6 mois.</p>
     </div>
 
-    <div *ngIf="!makeItShort"> 
+    <div *ngIf="!makeItShort">
         <p style="text-align: justify;">Choisissez l'un des ateliers ci-dessous:</p>
     </div>
 
 </header>
 
 <section>
-    <div class="crTuiles" *ngIf="!makeItShort"> 
+    <div class="crTuiles" *ngIf="!makeItShort">
         <app-atelier
-            [ngClass]="{ 'crTile': true , 'crSelected': false }" 
+            [ngClass]="{ 'crTile': true , 'crSelected': false }"
             *ngFor="let atelier of ateliers"
             [atelier]="atelier"
-        > 
+        >
         </app-atelier>
     </div>
-      
+
 </section>
 
 <footer>
 
-    <div *ngIf="makeItShort"> 
+    <div *ngIf="makeItShort">
         <p>
             <a class="crBoutonRouge" routerLink="/ateliers" >
                 Voir les ateliers et nos tarifs ...
@@ -37,28 +37,28 @@
     </div>
     <br />
 
-    <div *ngIf="!makeItShort"> 
-    
+    <div *ngIf="!makeItShort">
+
         <h2>Test d'&eacute;valuation gratuit et sans engagement</h2>
         <p style="text-align: justify;">
             Je vous accueille à CRUIS (04230) pour un test d'&eacute;valuation gratuit au cours duquel je vous pr&eacute;senterai ma m&eacute;thode d'&eacute;ducation et vous expliquerai ce qui peut &ecirc;tre fait pour am&eacute;liorer le comportement de votre chien. </p>
 
         <p style="text-align: justify;">
-            Vous habitez loin et souhaitez des r&eacute;sultats rapides? L'atelier intensif individuel est fait pour vous. 
+            Vous habitez loin et souhaitez des r&eacute;sultats rapides? L'atelier intensif individuel est fait pour vous.
             Le test sera fait le jour du stage. Vous avez jusqu'&agrave; 10h30 pour d&eacute;cider de continuer ou non. Si vous n'&ecirc;tes pas convaincu, vous serez rembours&eacute; et l'atelier sera interrompu.
         </p>
 
         <h2>Travail entre les s&eacute;ances</h2>
 
         <p style="text-align: justify;">
-            Le programme permet d'obtenir des <strong>r&eacute;sultats rapides</strong>, cependant votre <strong>investissement personnel</strong> est primordial pour que l'atelier donne des <strong>r&eacute;sultats durables</strong>. 
+            Le programme permet d'obtenir des <strong>r&eacute;sultats rapides</strong>, cependant votre <strong>investissement personnel</strong> est primordial pour que l'atelier donne des <strong>r&eacute;sultats durables</strong>.
             Cela suppose notamment une pratique r&eacute;guli&egrave;re des exercices &agrave; la maison (pendant et apr&egrave;s la fin du programme).
         </p>
 
         <h2>6 mois de suivi offert</h2>
 
         <p style="text-align: justify;">
-            Une fois le programme termin&eacute;, un suivi vous est offert pour une p&eacute;riode de 6 mois. 
+            Une fois le programme termin&eacute;, un suivi vous est offert pour une p&eacute;riode de 6 mois.
             Au del&agrave; des 6 mois, un tarif sera appliqu&eacute;.
             Le suivi vous donne acc&egrave;s aux <strong>cours collectifs</strong> et aux <strong>balades</strong>.
             Nous profiterons de ces moments pass&eacute;s en groupe pour travailler la <strong>socialisation</strong> de votre chien et pour revoir les exercices qui posent probl&egrave;me.

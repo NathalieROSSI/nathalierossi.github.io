@@ -1,0 +1,20 @@
+
+<header  >
+  <h1>Les prochaines sessions</h1>
+
+  <p>Vous trouverez ci-dessous les prochaines sessions prévues.</p>
+
+</header>
+
+<section>
+  <div class="crSessions">
+      <app-session
+          *ngFor="let session of sessions"
+          [session]="session"
+      >
+    </app-session>
+  </div>
+</section>
+
+<footer>
+</footer>

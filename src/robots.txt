@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://nathalie-rossi-education-canine.fr/sitemap.xml

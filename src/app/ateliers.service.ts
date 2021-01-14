@@ -56,7 +56,7 @@ export class AteliersService {
       title: "Atelier intensif collectif",
       jours: 'Le samedi et dimanche',
       quand: '24 et 25 avril 2021',
-      horaireMatin: '8h - 12h',
+      horaireMatin: '9h - 12h',
       horaireAprem: '14h - 17h',
       contrainte: 'Uniquement sur réservation',
       limite: 'Séance limitée à 5 chiens',

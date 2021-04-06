@@ -2,6 +2,7 @@
 <header  >
     <h1>Les ateliers propos&eacute;s</h1>
 
+    <app-covid></app-covid>
     <div *ngIf="makeItShort">
         <p style="text-align: justify;">Afin de satisfaire le plus grand nombre, je vous propose des ateliers sous diff&eacute;rents formats, avec au choix, des cours individuels ou collectifs.</p>
         <p style="text-align: justify;">L'objectif des ateliers est d'&eacute;duquer ou de r&eacute;&eacute;duquer votre chien. Notre m&eacute;thode fonctionne aussi bien avec les chiots qu'avec les vieux chiens et ce, quelle que soit la race.</p>
@@ -15,6 +16,7 @@
 </header>
 
 <section>
+
     <div class="crTuiles" *ngIf="!makeItShort">
         <app-atelier
             [ngClass]="{ 'crTile': true , 'crSelected': false }"
@@ -60,7 +62,7 @@
         <p style="text-align: justify;">
             Une fois le programme termin&eacute;, un suivi vous est offert pour une p&eacute;riode de 2 mois.
             Au del&agrave; des 2 mois, un tarif sera appliqu&eacute;.
-            Le suivi vous donne acc&egrave;s aux <strong>cours collectifs</strong> et aux <strong>balades</strong>.
+            Le suivi vous donne acc&egrave;s à des s&eacute;ances collectives de <strong>perfectionnement</strong>.
             Nous profiterons de ces moments pass&eacute;s en groupe pour travailler la <strong>socialisation</strong> de votre chien et pour revoir les exercices qui posent probl&egrave;me.
         </p>
 

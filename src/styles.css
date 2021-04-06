@@ -5,7 +5,7 @@ body {
 .crBouton {
   align-items: center;
   margin-top: 1em;
-  margin-left: 1em;    
+  margin-left: 1em;
 
   padding: 0.4em 0.8em;
   font-size: 1em;
@@ -25,7 +25,7 @@ body {
 .crBoutonRouge {
   align-items: center;
   margin-top: 1em;
-  margin-left: 1em;    
+  margin-left: 1em;
 
   padding: 0.4em 0.8em;
   font-size: 1em;
@@ -43,8 +43,8 @@ body {
 }
 
 .crRetour {
-  margin-top: 1em;    
-  margin-left: 1em;    
+  margin-top: 1em;
+  margin-left: 1em;
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  margin-top: 0.5em;    
+  margin-top: 0.5em;
   font-size: 1.4em;
 }
 
@@ -73,6 +73,17 @@ ul {
   _border-radius: 10px;
 }
 
+.crCovid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  _padding: 0px;
+  color: white;
+  background-color: #bd4601;
+  margin: 0 12px 12px 0;
+  _border-radius: 10px;
+}
+
 ul.crNobullets {
   list-style-type: none; /* Remove bullets */
 }
@@ -85,4 +96,10 @@ ul.crNobullets {
 .crBigger {
   color:rgb(173, 224, 31);
   font-size: 1.4em;
+}
+
+.crCovidBigger {
+  color:black;
+  font-size: 1.4em;
+  margin-bottom: 1em;
 }

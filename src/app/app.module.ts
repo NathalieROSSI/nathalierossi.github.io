@@ -17,6 +17,7 @@ import { ParcoursComponent } from './parcours/parcours.component';
 import { PlanningComponent } from './planning/planning.component';
 import { SessionComponent } from './session/session.component';
 import { TeasingComponent } from './teasing/teasing.component';
+import { CovidComponent } from './covid/covid.component';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { TeasingComponent } from './teasing/teasing.component';
     MethodeComponent,
     PlanningComponent,
     SessionComponent,
+    CovidComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

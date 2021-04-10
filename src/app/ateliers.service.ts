@@ -19,14 +19,14 @@ export class AteliersService {
       title: 'Atelier de rééducation',
       subTitle: 'Pour les chiens difficiles ou réactifs',
       format: '7 séances de 1 heure',
-      price: '693 €',
+      price: '644 €',
       comment: 'Séances en terrain neutre'
     },
     {
       id: "AII",
       title: 'Atelier individuel intensif',
       subTitle: 'Chiens à partir de 6 mois',
-      format: '5 heures, test inclus',
+      format: '5 heures',
       price: '590 €',
       comment: 'Sur une journée'
     },

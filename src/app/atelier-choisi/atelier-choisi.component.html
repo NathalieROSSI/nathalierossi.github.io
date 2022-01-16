@@ -73,7 +73,13 @@
         </ul>
     </div>
 
-    <img alt="Photo d'accueil" width="100%" src="assets/pictures/nath-massai-darius.jpg">
+    <div *ngIf="currentAtelier.id!=='ACC'">
+      <img  alt="Photo d'accueil" width="100%" src="assets/pictures/nath-massai-darius.jpg">
+    </div>
+
+    <div *ngIf="currentAtelier.id==='ACC'">
+      <img  alt="Photo chien et cheval" width="100%" src="assets/pictures/chien-cheval.jpg">
+    </div>
 
     <div class="crBoutons">
         <a class="crBouton crRetour" routerLink="/" >

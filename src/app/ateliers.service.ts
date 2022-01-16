@@ -11,7 +11,7 @@ export class AteliersService {
       title: 'Atelier pour chien de cavalier',
       subTitle: 'Chiens à partir de 8 mois',
       format: '5 heures',
-      price: '500 €',
+      price: '490 €',
       comment: 'Intervention chez vous, avec votre cheval'
     },
     {

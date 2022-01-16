@@ -1,21 +1,23 @@
 <header>
 
-    <div *ngIf="makeItShort"> 
+    <div *ngIf="makeItShort">
         <h1>Les exercices</h1>
-    </div>    
+    </div>
 
-    <div *ngIf="!makeItShort"> 
+    <div *ngIf="!makeItShort">
         <h1>Les bases de l'&eacute;ducation du chien</h1>
-    </div>    
+    </div>
 
 </header>
 
 <section>
 
-    <div *ngIf="makeItShort"> 
+    <div *ngIf="makeItShort">
 
-        <p style="text-align: justify;">Les exercices sont construits autour de principes de base qui sont valables pour tous les chiens. Il reste n&eacute;anmoins possible d'adapter les s&eacute;ances en fonction des difficult&eacute;s que rencontre votre ami &agrave; quatre pattes.</p>
-
+        <p style="text-align: justify;">Les exercices sont construits autour de principes de base qui sont valables pour tous les chiens.
+        Il reste n&eacute;anmoins possible d'adapter les s&eacute;ances en fonction des difficult&eacute;s que rencontre votre ami &agrave; quatre pattes.
+        A titre d'exemple, je propose un atelier dédié l'éducation de chiens de cavaliers.
+        </p>
         <p>
             <a class="crBouton" routerLink="/exercices" >
                 En savoir plus ...
@@ -24,7 +26,7 @@
         <br />
     </div>
 
-    <div *ngIf="!makeItShort"> 
+    <div *ngIf="!makeItShort">
 
         <p style="text-align: justify;">Les exercices sont construits autour de principes de base qui sont valables pour tous les chiens. Il reste n&eacute;anmoins possible d'adapter les s&eacute;ances en fonction des difficult&eacute;s que rencontre votre ami &agrave; quatre pattes.</p>
 
@@ -45,7 +47,7 @@
         <li>Respect du p&eacute;rim&egrave;tre : Le chien doit pouvoir rester autour de vous</li>
         <li>Rappel &agrave; la voix ou au sifflet</li>
         </ul>
-        
+
         <h3>Gestion des territoires</h3>
         <ul>
         <li>Rester sur demande &agrave; sa place (tapis, panier, etc)</li>
@@ -53,14 +55,14 @@
         <li>Interdit d&eacute;finitif : il doit comprendre que certaines pi&egrave;ces lui sont interdites</li>
         <li>Le portail sera franchi uniquement sur demande</li>
         </ul>
-        
+
         <h3>Gestion du contact</h3>
         <ul>
         <li>Ne pas accueillir les invit&eacute;s</li>
         <li>Ne pas sauter sur les gens</li>
         <li>Croiser ses cong&eacute;n&egrave;res dans le calme</li>
         </ul>
-        
+
         <h3>Divers exercices de s&eacute;curit&eacute;</h3>
         <ul>
         <li>Monter/descendre d&rsquo;un v&eacute;hicule</li>
@@ -68,12 +70,12 @@
         <li>Traverser la route</li>
         <li>...</li>
         </ul>
-    </div>   
+    </div>
 
 </section>
 
 <footer>
-    <div *ngIf="!makeItShort"> 
+    <div *ngIf="!makeItShort">
         <p>
             <a class="crBouton crRetour" routerLink="/accueil" >
                 Retour &agrave; l'accueil

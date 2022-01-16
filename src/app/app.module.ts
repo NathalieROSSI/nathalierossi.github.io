@@ -5,8 +5,10 @@ import { AtelierComponent } from './atelier/atelier.component';
 import { AtelierDetailsComponent } from './atelier-details/atelier-details.component';
 import { AteliersComponent } from './ateliers/ateliers.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { CavalierComponent } from './cavalier/cavalier.component';
 import { ContactComponent } from './contact/contact.component';
 import { ContentComponent } from './content/content.component';
+import { CovidComponent } from './covid/covid.component';
 import { ExercicesComponent } from './exercices/exercices.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
@@ -17,7 +19,6 @@ import { ParcoursComponent } from './parcours/parcours.component';
 import { PlanningComponent } from './planning/planning.component';
 import { SessionComponent } from './session/session.component';
 import { TeasingComponent } from './teasing/teasing.component';
-import { CovidComponent } from './covid/covid.component';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { CovidComponent } from './covid/covid.component';
     ContactComponent,
     MethodeComponent,
     PlanningComponent,
+    CavalierComponent,
     SessionComponent,
     CovidComponent,
   ],

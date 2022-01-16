@@ -1,0 +1,17 @@
+:host {
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  /* margin-left: 1em; */
+  /* justify-content: center; */
+}
+
+.crSessions {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  margin: 0em;
+}

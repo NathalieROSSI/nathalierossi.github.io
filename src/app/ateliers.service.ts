@@ -7,6 +7,14 @@ export class AteliersService {
 
   ateliers = [
     {
+      id: "ACC",
+      title: 'Atelier pour chien de cavalier',
+      subTitle: 'Chiens à partir de 8 mois',
+      format: '5 heures',
+      price: '500 €',
+      comment: 'Intervention chez vous, avec votre cheval'
+    },
+    {
       id: "AEI",
       title: 'Atelier d\'éducation essentiel',
       subTitle: 'Chiens à partir de 3 mois',

@@ -61,6 +61,11 @@ ul {
   padding-left: 0em;
 }
 
+.crLancement {
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-bottom: 2em;
+}
 
 .crCoordonnees {
   display: flex;

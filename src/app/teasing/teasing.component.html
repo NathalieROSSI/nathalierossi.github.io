@@ -5,12 +5,20 @@
 <section>
     <br/>
     <h1>
-      Atelier pour chiens de cavaliers
+      [ Nouveau ] Atelier pour chiens de cavaliers
     </h1>
-    Nouveau  cette ann&eacute;e :
-    <ul>
-        <li>En plus des ateliers conventionnels, je vous propose un atelier sp&eacute;cialis&eacute; dans l'&eacute;ducation de <strong>chiens de cavaliers</strong>.</li>
-    </ul>
+    En plus des ateliers conventionnels, je vous propose un atelier sp&eacute;cialis&eacute; dans l'&eacute;ducation de <strong>chiens de cavaliers</strong>.
+    <br/>
+    Profitez dès maintenant de notre tarif de lancement à <strong> 490 Euros</strong>.
+
+    <div class="crLancement">
+      <p>
+        <app-atelier
+          [ngClass]="{ 'crTile': true , 'crSelected': false }"
+          [atelier]="newAtelier" >
+        </app-atelier>
+      </p>
+    </div>
     <h1>
         Mes particularit&eacute;s
     </h1>

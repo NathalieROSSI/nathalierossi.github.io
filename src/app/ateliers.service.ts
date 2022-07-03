@@ -7,14 +7,6 @@ export class AteliersService {
 
   ateliers = [
     {
-      id: "ACC",
-      title: 'Atelier pour chien de cavalier',
-      subTitle: 'Chiens à partir de 8 mois',
-      format: '5 heures, sur plusieurs séances',
-      price: '490 €',
-      comment: 'Intervention chez vous, frais de déplacement non compris'
-    },
-    {
       id: "AEI",
       title: 'Atelier d\'éducation essentiel',
       subTitle: 'Chiens à partir de 3 mois',
@@ -37,6 +29,14 @@ export class AteliersService {
       format: 'Sur 2 journées',
       price: '320 €',
       comment: 'Le nombre de chiens peut varier'
+    },
+    {
+      id: "ACC",
+      title: 'Atelier pour chien de cavalier',
+      subTitle: 'Chiens à partir de 8 mois',
+      format: '5 heures, sur plusieurs séances',
+      price: '490 €',
+      comment: 'Intervention chez vous, frais de déplacement non compris'
     }
   ];
 

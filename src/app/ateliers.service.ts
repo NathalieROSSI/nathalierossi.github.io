@@ -17,10 +17,10 @@ export class AteliersService {
     {
       id: "AII",
       title: 'Atelier individuel intensif',
-      subTitle: 'Chiens à partir de 6 mois',
-      format: '5 heures',
-      price: '590 €',
-      comment: 'Sur une journée'
+      subTitle: 'Chiens à partir de 8 mois',
+      format: 'Sur une journée',
+      price: '400 €',
+      comment: 'Séance effectuée à CRUIS 04230'
     },
     {
       id: "AIC",
@@ -34,8 +34,8 @@ export class AteliersService {
       id: "ACC",
       title: 'Atelier pour chien de cavalier',
       subTitle: 'Chiens à partir de 8 mois',
-      format: '5 heures, sur plusieurs séances',
-      price: '490 €',
+      format: '4 heures modulables',
+      price: '400 €',
       comment: 'Intervention chez vous, frais de déplacement non compris'
     }
   ];

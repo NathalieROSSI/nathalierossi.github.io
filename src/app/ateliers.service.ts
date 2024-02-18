@@ -11,7 +11,7 @@ export class AteliersService {
       title: 'Atelier d\'éducation essentiel',
       subTitle: 'Chiens à partir de 3 mois',
       format: '4 séances de 1 heure',
-      price: '350 €',
+      price: '400 €',
       comment: '1 séance par semaine'
     },
     {
@@ -19,7 +19,7 @@ export class AteliersService {
       title: 'Atelier individuel intensif',
       subTitle: 'Chiens à partir de 8 mois',
       format: 'Sur une journée',
-      price: '400 €',
+      price: '450 €',
       comment: 'Séance effectuée à CRUIS 04230'
     },
     {
@@ -35,7 +35,7 @@ export class AteliersService {
       title: 'Atelier pour chien de cavalier',
       subTitle: 'Chiens à partir de 8 mois',
       format: '4 heures modulables',
-      price: '400 €',
+      price: '450 €',
       comment: 'Intervention chez vous, frais de déplacement non compris'
     }
   ];

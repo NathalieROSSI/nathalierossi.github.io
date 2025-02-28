@@ -73,6 +73,10 @@
         </ul>
     </div>
 
+    <div *ngIf="currentAtelier.id==='AEI'">
+      <img  alt="Photo - panorama" width="100%" src="assets/pictures/panorama.jpg">
+    </div>
+
     <div *ngIf="currentAtelier.id==='ACC'">
       <img  alt="Photo - chien et cheval" width="100%" src="assets/pictures/chien-cheval.jpg">
     </div>
@@ -81,7 +85,7 @@
       <img  alt="Photo - 3 chiens" width="100%" src="assets/pictures/brochette.jpg">
     </div>
 
-    <div *ngIf="currentAtelier.id!=='ACC' && currentAtelier.id!=='AIC'">
+    <div *ngIf="currentAtelier.id!=='ACC' && currentAtelier.id!=='AIC' && currentAtelier.id!=='AEI'">
       <img  alt="Photo d'accueil" width="100%" src="assets/pictures/nath-massai-darius.jpg">
     </div>
 

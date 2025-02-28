@@ -1,15 +1,18 @@
 {
   "name": "website",
   "version": "0.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "deploy-prod": "ng deploy --cname=nathalie-rossi-education-canine.fr",
-    "deploy-cr": "ng deploy --base-href=/website-education-canine/",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "ng": "NODE_OPTIONS=--openssl-legacy-provider ng",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider ng test",
+    "deploy-prod": "NODE_OPTIONS=--openssl-legacy-provider ng deploy --cname=nathalie-rossi-education-canine.fr",
+    "deploy-cr": "NODE_OPTIONS=--openssl-legacy-provider ng deploy --base-href=/website-education-canine/",
+    "lint": "NODE_OPTIONS=--openssl-legacy-provider ng lint",
+    "e2e": "NODE_OPTIONS=--openssl-legacy-provider ng e2e"
   },
   "private": true,
   "dependencies": {

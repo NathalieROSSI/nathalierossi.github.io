@@ -119,9 +119,7 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "repo": "git@github.com:NathalieROSSI/nathalierossi.github.io.git"
-          }
+          "options": {}
         }
       }
     }

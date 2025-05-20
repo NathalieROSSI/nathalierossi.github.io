@@ -12,7 +12,8 @@
     "deploy-prod": "NODE_OPTIONS=--openssl-legacy-provider ng deploy --cname=nathalie-rossi-education-canine.fr",
     "deploy-cr": "NODE_OPTIONS=--openssl-legacy-provider ng deploy --base-href=/website-education-canine/",
     "lint": "NODE_OPTIONS=--openssl-legacy-provider ng lint",
-    "e2e": "NODE_OPTIONS=--openssl-legacy-provider ng e2e"
+    "e2e": "NODE_OPTIONS=--openssl-legacy-provider ng e2e",
+    "xxx": "NODE_OPTIONS=--openssl-legacy-provider ng generate component chien-refuge"
   },
   "private": true,
   "dependencies": {

@@ -8,6 +8,7 @@ import { ExercicesComponent } from './exercices/exercices.component';
 import { MapComponent } from './map/map.component';
 import { ContactComponent } from './contact/contact.component';
 import { MethodeComponent } from './methode/methode.component';
+import { ChienRefugeComponent } from './chien-refuge/chien-refuge.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent  },
   { path: 'localisation', component: MapComponent  },
   { path: 'methode', component: MethodeComponent  },
+  { path: 'chien-refuge', component: ChienRefugeComponent  },
   { path: '', pathMatch: 'full', component: ContentComponent },
   { path: '**', redirectTo: '' }
 ];
